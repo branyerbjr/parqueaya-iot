@@ -15,8 +15,8 @@
 const char *ssid = "";
 const char *password = "";
 // Define la dirección IP o el nombre de dominio y el puerto del servidor
-const char *serverIP = "";  // Reemplaza con la dirección IP de tu servidor
-const int serverPort = 8080;  // Reemplaza con el puerto de tu servidor
+const char *serverIP = "apiya.34.23.25.139.sslip.io";  // Reemplaza con la dirección IP de tu servidor
+const int serverPort = 80;  // Reemplaza con el puerto de tu servidor
 
 #define PART_BOUNDARY "123456789000000000000987654321"
 
