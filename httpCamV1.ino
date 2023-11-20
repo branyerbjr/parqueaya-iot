@@ -114,7 +114,7 @@ static esp_err_t stream_handler(httpd_req_t *req)
       WiFiClient client;
       if (client.connect(serverIP, serverPort))
       {
-        client.println("POST /upload HTTP/1.1");
+        client.println("POST /camera/upload HTTP/1.1");
         client.println("Host: " + String(serverIP) + ":" + String(serverPort));
         client.println("Content-Type: image/jpeg");
         client.print("Content-Length: ");
